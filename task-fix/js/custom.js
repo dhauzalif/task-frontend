@@ -2,7 +2,7 @@
 //smooth scroll
 
 var posY=0;
-jarak = 10;
+jarak = 20;
 function smoothScroll(id) {
 	var target = document.getElementById(id).offsetTop;
 
