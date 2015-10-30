@@ -3,16 +3,30 @@
 <head>
   <title>alif firdauz</title>
   <meta charset="UTF-8">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link a href="CSS/normalize.css" rel="stylesheet">
+  <link a href="CSS/material.min.css" rel="stylesheet">
   <link a href="CSS/styles.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+
 <div class="container">
 <div>
 <header>
 	<h1><a href="#">_alif firdaus</a></h1>
 	</header>
 </div>
+ <div class="navigation-container">
+            <nav class="mdl-navigation">
+              <a href="#" class="mdl-navigation__link mdl-typography--text-uppercase">Home</a>
+              <a href="#hobbies" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('hobbies')">Hobbies</a>
+              <a href="#photos" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('photos')">Photos</a>
+              <a href="#contact" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('contact')">Contact</a>
+            </nav>
+          </div>
 
 <div class="info">
 <img src="img/dauz.jpg" />
@@ -32,11 +46,11 @@
 <div class="main">
 	<div class="row clearfix">
 		<div class="left" id="hobbies">
-			<h2 class="h2">Hobbies</h2>
+			<h2 class="col-title">Hobbies</h2>
 			<p class="par-row">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
 		</div>
 		<div class="right" id="activities">
-		<h2 class="h2">Activities</h2>
+		<h2 class="col-title">Activities</h2>
 		<p class="par-row">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
 		</div>
 	</div>
@@ -51,7 +65,7 @@
 				<a href="#"><img src="img/6.png" /></a>
 		</article>
 	</section>
-<section class="contact">
+<section id="contact">
 <h3>Contact</h3>
 <a href="http://facebook.com/dh4us"><img src="img/facebook.png"/></a>
 <a href="http://twitter.com/dhauz_alif"><img src="img/twitter.png"/></a>
@@ -60,5 +74,7 @@
 	</footer>
 </section>
 </div>
+</div>
+<script src="js/custom.js"></script>
 </body>
 </html>
