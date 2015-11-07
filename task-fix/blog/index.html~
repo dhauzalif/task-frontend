@@ -31,7 +31,7 @@
 		    <h2 class="mdl-card__title-text">HTML5</h2>
 		  </div>
 		  <div class="mdl-card__supporting-text">
-		    Posted on : 1 Januari 2015
+		    Posted on :
 		  </div>
 		  <div class="mdl-card__actions mdl-card--border">
 		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="postingan/html5/index.html">
@@ -45,7 +45,7 @@
 		    <h2 class="mdl-card__title-text">CSS3</h2>
 		  </div>
 		  <div class="mdl-card__supporting-text">
-		    Posted on : 2 Januari 2015
+		    Posted on :
 		  </div>
 		  <div class="mdl-card__actions mdl-card--border">
 		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="postingan/css3/index.html">
@@ -59,7 +59,7 @@
 		    <h2 class="mdl-card__title-text">Javascript</h2>
 		  </div>
 		  <div class="mdl-card__supporting-text">
-		    Posted on : 3 Januari 2015
+		    Posted on :
 		  </div>
 		  <div class="mdl-card__actions mdl-card--border">
 		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="postingan/javascript/index.html">
