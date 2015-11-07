@@ -1,176 +1,112 @@
 * {
 	margin:0px; padding:0px;
 }
-
-a {
-	text-decoration: none;
-}
-
-li {
-	list-style: none;
-}
-
-
 body {
-	background-color:#767676;
-	font-size: 13px;
-	max-width: 100%;
-	max-height:100%;
+	max-width:100%;
+	max-height: :100%;
 }
 
-@media screen and (max-width: 760px) {
-	body {
-		font-size: 13px
-	}
+.page-content {
+	width:100%;
 }
-
-h2 {
-	font-size:2em;
-}
-p {
-	font-size: 1em;
-}
-/* navigation */
-.navigation-container {
-    margin:auto 0;
-  }
- .navigation-container nav {
- 	display:block;
- 	text-align: right;
- 	padding:20px;
- 	margin-right: 3%;
- }
-.navigation-container nav a {
-	padding:0px 20px 0px 20px;
-}
-
-.container {
+.mdl-layout__content {
 	width:100%;
 	height:100%;
-	margin:0 auto;
-	background-color:#333;
-	background-size: cover;
-	-webkit-background-size: cover;
 }
-.container h1 {
-	font-family:'Arial', sans-serif;
-	color:#fff;
-	padding:30px 20px 30px 40px;
-	margin:0;
-}
-
-.h2 {
-	text-align: center;
-	font-size: 3em;
-}
-.container a {
-	text-decoration: none;
+.mdl-card__title-text {
+	margin-left:5%;
 	color:#fff;
 }
-.container a:hover {
-	color:#00B3FF;
+.demo-card-wide.mdl-card {
+  width: 100%;
 }
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px; }
+ .mdl-navigation a:hover {
+	background-color: #38489F;
+ }
 
-.info {
-	background-color:#E4E4E4;
-	text-align: center;
-	padding:30px 0px 30px 0px;
-	border-bottom: 1px solid #B3B3B3;
-}
 
-.info img {
-	width:100px;
-	height:100px;
-	border-radius:50%;
-	text-align:center;
-	margin:10px;
-}
+/* personal info */
+ #person-info {
+ 	color:#555555;
+ 	width:100%;
+ 	height:100%;
+ }
 
-.info ul li {
-	list-style: none;
-}
+ #person-info img {
+ 	padding:40px 0px 40px 0px;
+ 	width:100px;
+ 	height:100px;
+ 	border-radius:50%;
+ 	margin:0 auto;
+ }
 
-#person-info {
-	text-align: justify center;
-}
-.main {
-	display:block;
-}
+ #person-info h5 {
+ 	text-align:center;
+ 	margin-bottom:50px;
+ }
+/* kolom hobi dan activity */ 
+ .demo-card-square.mdl-card {
+ 	width:50%;
+ 	height:auto;
+ 	float:left;
+ }
 
-.row { background-color: #E4E4E4;
-	border-bottom:1px solid #B3B3B3;
-	padding:20px;
+ #hobbies h2 {
+ 	color:#333;
+ 	margin-left:10%;
+ }
+ .mdl-card__supporting-text {
+ 	color:#555;
+ 	margin:2%;
+ 	padding:2%;
+ }
 
+ /* gallery */
+#gallery {
+	background-color:#fff;
+	margin:0px;
+	padding:0px;
 }
-
-.left {
-	float:left;
-	width:30%;
-	margin-right: 20%;
-	margin-left: 7%;
+#gallery h3 {
+	color:#333;
+	padding:0px;
+	margin-left: 5%;
 }
-.right {
-	float:left;
-	width:30%;
-	margin-bottom:20px;
-
-}
-
-#hobbies,#activities {
-	background-color:#E4E4E4;
-}
-
-.par-row {
-	text-align: justify;
-}
-
-.col-title {
-	padding:20px;
-	display:block;
-	text-align:center;
-}
-#photos {
-	background-color:#E4E4E4;
-	margin:0;
-	padding:20px;
-}
-#photos h2 {
-	padding-left: 20px;
-	margin:0;
-}
-#photos img {
-	
-	text-align:center;
-	display:inline-block;
+#gallery img {
 	width:200px;
 	height:200px;
-	padding:10px;
-	margin:0 auto;
+	display:inline-block;
+	padding:20px;
+	margin:10px;
+}
+#gallery img:hover {
+	background-color:#BABABA;
 }
 
-#photos img:hover {
-	background-color:#ABABAB; 
-}
-
-#contact {
+#contact h3 {
 	color:#fff;
-	text-align: center;
+	margin-left:5%;
 }
 #contact img {
-	background-color:#333;
-	width:20px;
-	height:20px;
+	width:50px;
+	height:50px;
+	border-radius:0;
+	padding:10px;
+	text-align: center;
+	display:inline-block;
+	margin-left: 10%;
+
+}
+
+.footer p {
+	margin-left:5%;
 	padding:20px; 
 }
-#contact h3 {
-	padding:20px;
-}
 
-.footer {
-	padding:10px;
-}
-
-.clearfix:before,
+ .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;

@@ -1,81 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>alif firdauz</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
+	<meta charset="UTF-8">
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link a href="CSS/normalize.css" rel="stylesheet">
-  <link a href="CSS/material.min.css" rel="stylesheet">
-  <link a href="CSS/styles.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<title>alif</title>
+<link rel="stylesheet" href="CSS/material.min.css">
+<link rel="stylesheet" href="CSS/styles.css">
+<script src="js/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+	
 </head>
 <body>
-
-<div class="container">
-<div>
-<header>
-	<h1><a href="#">_alif firdaus</a></h1>
-	</header>
-</div>
- <div class="navigation-container">
-            <nav class="mdl-navigation">
-              <a href="#" class="mdl-navigation__link mdl-typography--text-uppercase">Home</a>
-              <a href="#hobbies" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('hobbies')">Hobbies</a>
-              <a href="#photos" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('photos')">Photos</a>
-              <a href="#contact" class="mdl-navigation__link mdl-typography--text-uppercase" onclick="return smoothScroll('contact')">Contact</a>
-            </nav>
-          </div>
-
-<div class="info">
-<img src="img/dauz.jpg" />
-<section id="person-info">
-		<article>
-			<ul>
-				<li>Name : Alif Firdaus</li> <br>
-				<li>Bornday : February 12 1995</li> <br>
-				<li>Address : Jl. Jalangkote</li> <br>
-				<li>Email : aliffirdhauz@gmail.com</li> <br>
-				<li>Phone number : +6285 397 190 991</li> <br>
-			</ul>
-		</article>
-	</section>	
-</div>
-
-<div class="main">
-	<div class="row clearfix">
-		<div class="left" id="hobbies">
-			<h2 class="col-title">Hobbies</h2>
-			<p class="par-row">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
+<!-- layout -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">alif firdauz</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="#">Home</a>
+        <a class="mdl-navigation__link" href="#contact">Contact</a>
+        <a class="mdl-navigation__link" href="blog/index.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Tentang Penulis</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="#">Personal info</a>
+      <a class="mdl-navigation__link" href="#gallery">Gallery</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+    	<div class="demo-card-wide mdl-card mdl-shadow--2dp" style="background: url('img/rocket-night.jpg') center / cover;">
+  		<div class="mdl-card__title">
+    	<h2 class="mdl-card__title-text">No dream is too big, and no Dreamer is too small</h2>
+  		</div>
+  	<div id="person-info" class="page-content">
+  		<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+		<img src="img/dauz.jpg">
+		<h5>My name is Alif Firdaus, I'm a FrontEnd of bugisDev</h5>
+  		</div>
+  <div id="hobbies">
+  		<div id="wrapper" class="clearfix">
+			  <div class="demo-card-square mdl-card mdl-shadow--2dp clearfix">
+			  <div class="mdl-card__title mdl-card--expand">
+			    <h2 class="mdl-card__title-text">Hobbies</h2>
+			  	</div>
+			  	<div class="mdl-card__supporting-text">
+			    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    Aenan convallis.Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah halaman saat ia melihat tata letaknya. Maksud penggunaan Lorem Ipsum adalah karena ia kurang lebih memiliki penyebaran huruf yang normal, ketimbang menggunakan kalimat seperti "Bagian isi disini, bagian isi disini", sehingga ia seolah menjadi naskah Inggris yang bisa dibaca. Banyak paket Desktop Publishing dan editor situs web yang kini menggunakan Lorem Ipsum sebagai contoh teks. Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak situs web yang masih dalam tahap pengembangan. Berbagai versi juga telah berubah dari tahun ke tahun, kadang karena tidak sengaja, kadang karena disengaja (misalnya karena dimasukkan unsur humor atau semacamnya)
+			  	</div>	
+			  	</div>
+			  <div class="demo-card-square mdl-card mdl-shadow--2dp clearfix">
+			  <div class="mdl-card__title mdl-card--expand">
+			    <h2 class="mdl-card__title-text">Activities</h2>
+			  	</div>
+			  	<div class="mdl-card__supporting-text">
+			    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    Aenan convallis.Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah halaman saat ia melihat tata letaknya. Maksud penggunaan Lorem Ipsum adalah karena ia kurang lebih memiliki penyebaran huruf yang normal, ketimbang menggunakan kalimat seperti "Bagian isi disini, bagian isi disini", sehingga ia seolah menjadi naskah Inggris yang bisa dibaca. Banyak paket Desktop Publishing dan editor situs web yang kini menggunakan Lorem Ipsum sebagai contoh teks. Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak situs web yang masih dalam tahap pengembangan. Berbagai versi juga telah berubah dari tahun ke tahun, kadang karena tidak sengaja, kadang karena disengaja (misalnya karena dimasukkan unsur humor atau semacamnya)
+			  	</div>	
+			  	</div>
 		</div>
-		<div class="right" id="activities">
-		<h2 class="col-title">Activities</h2>
-		<p class="par-row">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
+		  <div id="gallery" class="clearfix">
+		  <h3>Gallery</h3>
+		  	<a href="#"><img src="img/1.png"></a>
+		  	<a href="#"><img src="img/2.png"></a>
+		  	<a href="#"><img src="img/3.png"></a>
+		  	<a href="#"><img src="img/4.png"></a>
+		  	<a href="#"><img src="img/5.png"></a>
+		  	<a href="#"><img src="img/6.png"></a>
+		  </div>
+		 <div id="contact">
+			<h3>Contact</h3>
+				<a href="http://facebook.com/dh4us"><img src="img/facebook.png"/></a>
+				<a href="http://twitter.com/dhauz_alif"><img src="img/twitter.png"/></a>
+		<footer class="footer">
+			<p>Copyright &copy 2015</p>	
+		</footer>
 		</div>
-	</div>
-	<section id="photos">
-		<article>
-			<h2>Photos</h2>
-				<a href="#"><img src="img/1.png" /></a>
-				<a href="#"><img src="img/2.png" /></a>
-				<a href="#"><img src="img/3.png" /></a>
-				<a href="#"><img src="img/4.png" /></a>
-				<a href="#"><img src="img/5.png" /></a>
-				<a href="#"><img src="img/6.png" /></a>
-		</article>
-	</section>
-<section id="contact">
-<h3>Contact</h3>
-<a href="http://facebook.com/dh4us"><img src="img/facebook.png"/></a>
-<a href="http://twitter.com/dhauz_alif"><img src="img/twitter.png"/></a>
-	<footer class="footer">
-	<p>Copyright &copy 2015</p>	
-	</footer>
-</section>
-</div>
+  </div>
+  </div>
+  </div>
+  </main>
 </div>
 <script src="js/custom.js"></script>
+<script src="js/material.min.js"></script>
 </body>
 </html>
