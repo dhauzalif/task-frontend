@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5</title>
+	<link rel="stylesheet" href="CSS/material.min.css">
+	<link rel="stylesheet" href="CSS/styles.css">
+	<script src="js/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">alif firdauz</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="../../index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+	<main class="mdl-layout__content">
+  	<div class="page-content">
+		<div class="demo-card-square mdl-card mdl-shadow--2dp clearfix">
+		  <div class="mdl-card__title mdl-card--expand">
+		    <h2 class="mdl-card__title-text">HTML5</h2>
+		  </div>
+		  <div class="mdl-card__supporting-text">
+		    <p>Question: What is JavaScript?
+
+Answer: JavaScript is a scripting language designed primarily for adding interactivity to Web pages and creating Web applications. The language was first implemented by Netscape Communications Corp. in Netscape Navigator 2 beta (1995). JavaScript is different from the Java language (developed in the 1990s at Sun Microsystems). However, the two languages can interoperate well. Client-side JavaScript programs, or scripts, can be embedded directly in HTML source of Web pages. (Note: There is also server-side JavaScript, but it's beyond the scope of this FAQ collection.) Depending on the Web developer's intent, script code may run when the user opens the Web page, clicks or drags some page element with the mouse, types something on the keyboard, submits a form, or leaves the page.
+
+JavaScript is an object-oriented language with prototypal inheritance. The language supports several built-in objects, and programmers can create or delete their own objects. Prototypal inheritance makes JavaScript very different from other popular programming languages such as C++, C#, or Java featuring classes and classical inheritance. JavaScript does not have classes in the C++ or Java sense. In JavaScript, objects can inherit properties directly from each other, forming the object prototype chain.
+
+JavaScript is an interpreted language, with optional JIT-compilation support. In older implementations (e.g. Internet Exlorer 8 and earlier, Firefox prior to 3.5), JavaScript was a purely interpreted language. This means that scripts execute without preliminary compilation, i.e. without conversion of the script text into system-dependent machine code. The user's browser interprets the script, that is, analyzes and immediately executes it. In modern implementations, JavaScript code may be either interpreted or compiled using a just-in-time (JIT) compiler. At run time, the browser decides whether (parts of) script code should be JIT-compiled for better performance. This makes JavaScript significantly faster and therefore more suitable for complex performance-demanding Web applications. Recent versions of all popular browsers have JavaScript JIT-compilers.
+
+JavaScript is widely supported. It is available in the following browsers:
+
+Netscape Navigator (beginning with version 2.0)
+Microsoft Internet Explorer (beginning with version 3.0)
+Firefox
+Safari
+Opera
+Google Chrome
+Any other browser whose vendor licensed or implemented JavaScript.
+Thus, most Internet users today have browsers that support JavaScript. That's why JavaScript is one of the most popular tools in the Web developer's arsenal.
+</p>
+	</div>
+	</div>
+	</main>
+</body>
+</html>
